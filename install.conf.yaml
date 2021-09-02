@@ -1,3 +1,42 @@
-- clean: []
-- link: {}
-- shell: []
+---
+- defaults:
+    link:
+      create: true
+      relink: true
+    shell:
+      stderr: true
+      stdout: true
+- clean: ['~']
+- link:
+    ~/.Brewfile:
+    ~/.gemrc:
+    ~/.gitconfig:
+- shell:
+  - description: Hush the last login prompt
+    command: touch ~/.hushlogin
+
+  - description: Create the local working src folder
+    command: mkdir -p ~/src
+
+  - description: Install Homebrew
+    command: |
+      if ! [ -x "$(command -v brew)" ]; then
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      fi
+
+  - description: Update Homebrew
+    command: brew update
+
+  - description: Install Homebrew Packages
+    command: brew bundle --global
+
+  - description: Install rvm
+    command: |
+      if ! [ -x "$(command -v rvm)" ]; then
+        gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+        curl -sSL https://get.rvm.io | bash -s stable
+        source ~/.rvm/scripts/rvm
+      fi
+
+  - description: Install ruby
+    command: rvm install ruby 3.0.2 && rvm alias create default 3.0.2

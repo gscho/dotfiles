@@ -1,0 +1,5 @@
+---
+:benchmark: false
+:sources:
+- http://rubygems.org
+gem: --no-document
