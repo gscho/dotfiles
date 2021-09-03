@@ -7,7 +7,7 @@ brew 'gnupg2'
 brew 'fzf'
 brew 'pure'
 brew 'terraform'
-brew 'vagrant'
 
 cask 'docker'
+cask 'vagrant'
 cask 'virtualbox'
