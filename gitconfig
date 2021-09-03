@@ -1,3 +1,5 @@
 [user]
 	name = Gregory Schofield
 	email = gscho@github.com
+[init]
+	defaultBranch = main
