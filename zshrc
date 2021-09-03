@@ -34,7 +34,7 @@ PURE_PROMPT_SYMBOL=$
 autoload -U promptinit; promptinit
 prompt pure
 
-alias dotfiles='cd /Users/gschofiled/workspace/dotfiles'
-alias github='cd /Users/gschofiled/workspace/github'
-alias gscho='cd /Users/gschofiled/workspace/github'
+alias dotfiles='cd /Users/gschofield/workspace/gscho/dotfiles'
+alias github='cd /Users/gschofield/workspace/github'
+alias gscho='cd /Users/gschofield/workspace/gscho'
 alias g='git'

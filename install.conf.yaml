@@ -11,6 +11,7 @@
     ~/.Brewfile:
     ~/.gemrc:
     ~/.gitconfig:
+    ~/.zshrc:
 - shell:
   - description: Hush the last login prompt
     command: touch ~/.hushlogin
