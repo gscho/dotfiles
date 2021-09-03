@@ -1,8 +1,13 @@
 brew 'awscli'
 brew 'azure-cli'
 brew 'git'
+brew 'gh'
 brew 'gnupg'
 brew 'gnupg2'
+brew 'fzf'
+brew 'pure'
 brew 'terraform'
+brew 'vagrant'
 
 cask 'docker'
+cask 'virtualbox'
