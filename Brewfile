@@ -7,6 +7,7 @@ brew 'gnupg2'
 brew 'fzf'
 brew 'pure'
 brew 'terraform'
+brew 'zsh-autosuggestions'
 
 cask 'docker'
 cask 'vagrant'
