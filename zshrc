@@ -19,15 +19,8 @@ plugins=(git ruby)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
 export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vi'
-else
-  export EDITOR='subl'
-fi
+export EDITOR='vi'
 
 PURE_GIT_PULL=0
 PURE_PROMPT_SYMBOL=$
@@ -37,4 +30,5 @@ prompt pure
 alias dotfiles='cd /Users/gschofield/workspace/gscho/dotfiles'
 alias github='cd /Users/gschofield/workspace/github'
 alias gscho='cd /Users/gschofield/workspace/gscho'
+alias csa='cd /Users/gschofield/workspace/customer-success-architects'
 alias g='git'
