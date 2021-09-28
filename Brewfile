@@ -6,9 +6,8 @@ brew 'gh'
 brew 'gnupg'
 brew 'gnupg2'
 brew 'fzf'
-
+brew 'minikube'
 brew 'openssh'
-
 brew 'pure'
 brew 'telnet'
 brew 'terraform'
