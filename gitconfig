@@ -3,3 +3,5 @@
 	email = gscho@github.com
 [init]
 	defaultBranch = main
+[core]
+	excludesFile = ~/.gitignore

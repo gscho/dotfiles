@@ -11,6 +11,7 @@
     ~/.Brewfile:
     ~/.gemrc:
     ~/.gitconfig:
+    ~/.gitignore:
     ~/.zshrc:
 - shell:
   - description: Hush the last login prompt
