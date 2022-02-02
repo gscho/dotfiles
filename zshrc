@@ -1,7 +1,7 @@
 export PATH="./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/gschofield/.oh-my-zsh"
+export ZSH="/Users/greg.schofield/.oh-my-zsh"
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Set name of the theme to load --- if set to "random", it will
@@ -28,7 +28,7 @@ PURE_PROMPT_SYMBOL=$
 autoload -U promptinit; promptinit
 prompt pure
 
-alias dotfiles='cd /Users/gschofield/workspace/gscho/dotfiles'
+alias dotfiles='cd /Users/greg.schofield/workspace/gscho/dotfiles'
 alias gscho='cd /Users/greg.schofield/workspace/gscho'
 alias g='git'
 alias k='kubectl'
