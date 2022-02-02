@@ -29,8 +29,6 @@ autoload -U promptinit; promptinit
 prompt pure
 
 alias dotfiles='cd /Users/gschofield/workspace/gscho/dotfiles'
-alias github='cd /Users/gschofield/workspace/github'
-alias gscho='cd /Users/gschofield/workspace/gscho'
-alias csa='cd /Users/gschofield/workspace/customer-success-architects'
+alias gscho='cd /Users/greg.schofield/workspace/gscho'
 alias g='git'
 alias k='kubectl'
