@@ -24,7 +24,6 @@ export LANG=en_US.UTF-8
 export EDITOR='vi'
 
 PURE_GIT_PULL=0
-PURE_PROMPT_SYMBOL=$
 autoload -U promptinit; promptinit
 prompt pure
 
@@ -32,3 +31,4 @@ alias dotfiles='cd /Users/greg.schofield/workspace/gscho/dotfiles'
 alias gscho='cd /Users/greg.schofield/workspace/gscho'
 alias g='git'
 alias k='kubectl'
+
