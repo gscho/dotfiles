@@ -18,7 +18,7 @@ cask 'docker'
 cask 'vagrant'
 cask 'virtualbox'
 
-unless ENV['INSTALL_JAVA']
+if ENV['INSTALL_JAVA']
   brew 'maven'
   brew 'openjdk'
 
