@@ -1,6 +1,4 @@
-brew 'aws-cdk'
 brew 'awscli'
-brew 'azure-cli'
 brew 'docker-compose'
 brew 'git'
 brew 'gh'
@@ -10,7 +8,6 @@ brew 'fswatch'
 brew 'fzf'
 brew 'minikube'
 brew 'openssh'
-brew 'postgres'
 brew 'pure'
 brew 'shellcheck'
 brew 'telnet'
@@ -21,7 +18,7 @@ cask 'docker'
 cask 'vagrant'
 cask 'virtualbox'
 
-unless ENV['NO_JAVA']
+unless ENV['INSTALL_JAVA']
   brew 'maven'
   brew 'openjdk'
 
