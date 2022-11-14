@@ -31,6 +31,9 @@
 
   - description: Install Homebrew Packages
     command: brew bundle --global
+    
+  - description: brew prefix zsh
+    command: $(brew --prefix)/bin/zsh
 
   - description: Install rvm
     command: |
