@@ -15,8 +15,10 @@ brew 'terraform'
 brew 'zsh-autosuggestions'
 
 cask 'docker'
-cask 'vagrant'
-cask 'virtualbox'
+unless RUBY_PLATFORM.match? /arm64/
+  cask 'vagrant'
+  cask 'virtualbox'
+end
 
 if ENV['INSTALL_JAVA']
   brew 'maven'
