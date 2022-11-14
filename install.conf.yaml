@@ -41,4 +41,4 @@
       fi
 
   - description: Install ruby
-    command: rvm install ruby 3.1.0 && rvm alias create default 3.1.0
+    command: rvm install ruby 3.1.2 && rvm alias create default 3.1.2
