@@ -12,6 +12,7 @@ brew 'pure'
 brew 'shellcheck'
 brew 'telnet'
 brew 'terraform'
+brew 'zsh'
 brew 'zsh-autosuggestions'
 
 cask 'docker'
