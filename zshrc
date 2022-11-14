@@ -1,7 +1,7 @@
 export PATH="./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/greg.schofield/.oh-my-zsh"
+export ZSH="/Users/gregs/.oh-my-zsh"
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Set name of the theme to load --- if set to "random", it will
@@ -27,8 +27,8 @@ PURE_GIT_PULL=0
 autoload -U promptinit; promptinit
 prompt pure
 
-alias dotfiles='cd /Users/greg.schofield/workspace/gscho/dotfiles'
-alias gscho='cd /Users/greg.schofield/workspace/gscho'
+alias dotfiles='cd /Users/gregs/workspace/gscho/dotfiles'
+alias gscho='cd /Users/gregs/workspace/gscho'
 alias g='git'
 alias k='kubectl'
 
