@@ -2,7 +2,7 @@ export PATH="./bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/gregs/.oh-my-zsh"
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source "$(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -22,6 +22,7 @@ source $ZSH/oh-my-zsh.sh
 
 export LANG=en_US.UTF-8
 export EDITOR='vi'
+RPROMPT="[%D{%y/%m/%f}|%@]"
 
 PURE_GIT_PULL=0
 autoload -U promptinit; promptinit
